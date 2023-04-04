@@ -37,7 +37,7 @@ Users can make a POST request to `http://localhost:3000/locations` with a JSON o
     }
   ]
 }
-
+```
 The server will respond with a JSON object containing an array of objects representing each address, with Starlink Coverage Status, Latitude and Longitude, and the sanitized address. For example:
 
 
@@ -69,12 +69,8 @@ The server will respond with a JSON object containing an array of objects repres
         },
         "coverage": null
     }
-]}json
-
+]}
+```
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-
-# starlink-loopcheck
-# starlink-loopcheck
