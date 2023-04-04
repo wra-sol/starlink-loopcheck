@@ -1,0 +1,20 @@
+{
+  "name": "starlink-check",
+  "version": "1.0.0",
+  "description": "This tool helps to validate addresses for service with Starlink.",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NJA",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.27",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}

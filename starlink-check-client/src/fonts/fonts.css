@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../../public/D-DIN.woff2') format('woff2'),
+         url('../../public/D-DIN.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../../public/D-DIN-Bold.woff2') format('woff2'),
+         url('../../public/D-DIN-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }

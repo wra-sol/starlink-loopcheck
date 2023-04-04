@@ -1,0 +1,55 @@
+/* index.css */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  padding: 10px;
+}
+.starlinkBg {
+  position: relative;
+  overflow: hidden;
+  background-color: #010000;
+  width: 100vw;
+  height: 100vh;
+}
+.starlinkBg::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -10%;
+  left: -50%;
+  z-index: -1;
+  background: url('../public/spacex.jpeg') 0 0 no-repeat;
+  
+  animation: rotateImage 120s forwards;
+  opacity: .7;
+}
+@media screen and (min-width: 600px){
+  .starlinkBg::before{
+    top: 20%;
+    left: 0;
+    animation: growImage 120s forwards;
+  }
+}
+@keyframes rotateImage { 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+@keyframes growImage { 
+  from {
+    transform: scale(1);
+   }
+  to {
+    transform: scale(1.05);
+  }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
