@@ -21,7 +21,8 @@ Once the development server is running, you can access the application at `http:
 
 Users can make a POST request to `http://localhost:3000/locations` with a JSON object in the request body containing an array of addresses. Each address should be represented as an object with an id and an address property. For example:
 
-```json{
+```json
+{
   "addresses": [
     {
       "id": "1",
@@ -41,7 +42,8 @@ Users can make a POST request to `http://localhost:3000/locations` with a JSON o
 The server will respond with a JSON object containing an array of objects representing each address, with Starlink Coverage Status, Latitude and Longitude, and the sanitized address. For example:
 
 
-```json{[
+```json
+{[
     {
         "id": "1",
         "address": "Google Building 40, 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA",
