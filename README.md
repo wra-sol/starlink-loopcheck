@@ -36,7 +36,7 @@ Users can make a POST request to `http://localhost:3000/locations` with a JSON o
       "address": "1600 Pennsylvania Ave NW, Washington, DC"
     }
   ]
-}```
+}json```
 
 The server will respond with a JSON object containing an array of objects representing each address, with Starlink Coverage Status, Latitude and Longitude, and the sanitized address. For example:
 ```json{[
@@ -67,7 +67,7 @@ The server will respond with a JSON object containing an array of objects repres
         },
         "coverage": null
     }
-]}```
+]}json```
 
 ## License
 
